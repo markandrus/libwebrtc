@@ -9,10 +9,10 @@ install(FILES ${_LIBRARY_FILES}
 
 #
 # Install headers
-install(DIRECTORY "${CMAKE_BINARY_DIR}/include/"
+install(DIRECTORY "${CMAKE_BINARY_DIR}/include/src/"
         DESTINATION ${INSTALL_INCLUDE_DIR}
         COMPONENT include
-        FILES_MATCHING PATTERN "*.h")
+        FILES_MATCHING PATTERN "src/**/*.h")
 
 #
 # Install CMake Config file
