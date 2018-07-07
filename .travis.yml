@@ -2,7 +2,7 @@ matrix:
   include:
     - os: linux
       sudo: required
-      env: TARGET_CPU=x64 GN_EXTRA_ARGS="is_clang=false"
+      env: TARGET_CPU=x64 GN_EXTRA_ARGS="is_clang=false use_sysroot=false"
       addons:
         apt: &x64-apt
           sources:
@@ -25,7 +25,7 @@ matrix:
 
     - os: linux
       sudo: required
-      env: TARGET_CPU=x64 CMAKE_BUILD_TYPE=Debug GN_EXTRA_ARGS="is_clang=false"
+      env: TARGET_CPU=x64 CMAKE_BUILD_TYPE=Debug GN_EXTRA_ARGS="is_clang=false use_sysroot=false"
       addons:
         apt: *x64-apt
 
