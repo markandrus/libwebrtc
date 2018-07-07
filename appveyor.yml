@@ -29,7 +29,7 @@ artifacts:
 deploy:
   provider: GitHub
   auth_token:
-    secure: QQrYk1F7DLgQ9eht+J6hvDiDRu8a+AKKwsOetybrL8B32UYxlNJKSZIpD0yHPVsx
+    secure: MsQYqyDKg77yaHWXRq4huHkyRz5gtckekxIbx4vC9R/zQT5Vi/VLV6OC/xmKignj
   artifact: /libwebrtc-.*\.zip/
   draft: false
   prerelease: false
