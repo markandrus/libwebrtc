@@ -12,6 +12,7 @@ matrix:
           - g++-4.8
           - libglib2.0-dev
           - libgtk2.0-dev
+          - libgtk-3-dev
           - libxtst-dev
           - libxss-dev
           - libpci-dev
